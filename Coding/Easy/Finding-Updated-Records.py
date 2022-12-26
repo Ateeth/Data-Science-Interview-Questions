@@ -1,6 +1,6 @@
-Question Link : https://platform.stratascratch.com/coding/10299-finding-updated-records?tabname=question
+# Question Link : https://platform.stratascratch.com/coding/10299-finding-updated-records?tabname=question
 
-Solution : 
+
 # Import your libraries
 import pandas as pd
 
