@@ -16,6 +16,6 @@ orders_march_2019 = orders[(orders['order_month'] == 3) & (orders['order_year'] 
 order_march_2019_key_details = orders_march_2019[['cust_id','total_order_cost']]
 
 #Find total order cost of each customer by grouping by cust_id
-result = order_march_2019_key_details.groupby(['cust_id'])['total_order_cost'].sum().reset_index()
+result = order_march_2019_key_details.groupby(['cust_id'])['total_order_cost'].sum().reset_index().sort_values(['total_order_cost'] , ascending = False)
 
 result
