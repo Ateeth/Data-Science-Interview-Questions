@@ -1,6 +1,5 @@
-Question Link : https://platform.stratascratch.com/coding/9891-customer-details?code_type=2
+#Question Link : https://platform.stratascratch.com/coding/9891-customer-details?code_type=2
 
-Solution : 
 # Import your libraries
 import pandas as pd
 
