@@ -1,4 +1,4 @@
-Question_Link : https://platform.stratascratch.com/coding/10164-total-adwords-earnings?tabname=question&code_type=2
+#Question_Link : https://platform.stratascratch.com/coding/10164-total-adwords-earnings?tabname=question&code_type=2
 
 # Import your libraries
 import pandas as pd
