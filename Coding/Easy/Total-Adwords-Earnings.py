@@ -1,21 +1,13 @@
 #Question_Link : https://platform.stratascratch.com/coding/10164-total-adwords-earnings?tabname=question&code_type=2
 
 # Import your libraries
+# Import your libraries
 import pandas as pd
 
-total_for_business = google_adwords_earnings.groupby(['business_type']).mean()
+google_key_details = google_adwords_earnings[['business_type' , 'adwords_earnings']]
 
-total_earnings= total_for_business['adwords_earnings'].tolist()
-
-unique_business = google_adwords_earnings['business_type'].unique().tolist()
+google_key_details.groupby('business_type').sum().reset_index()
 
 
-
-result = pd.DataFrame(
-    {'business_type': unique_business,
-     'adwords_earnings': total_earnings
-    })
-
-result
 
 
